@@ -35,6 +35,28 @@ body{
     height: 19px;
 }
 
+/*NAVBAR*/
+.navbar{
+    background-color: cadetblue;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 4rem;
+}
+
+
 /*MAIN*/
 .main__container{
     max-width: 350px;
@@ -76,7 +98,8 @@ body{
 .image{
     width: 351px;
     height: 264px;
-    margin: 37px 12px 0 12px;
+    padding: 37px 12px 0 12px;
+    
     z-index: -500;
 }
 
