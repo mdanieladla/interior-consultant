@@ -36,6 +36,10 @@ body{
 }
 
 /*MAIN*/
+.main__container{
+    max-width: 350px;
+}
+
 .main-title{
     color: white;
     font-family: 'Lora', serif;
@@ -77,19 +81,32 @@ body{
 }
 
 .info-girl{
-    margin: -20px 23px 0 52px;
+    /* margin: 0px 10px; */
     width: 300px;
     height: 138px;
-    background-color: brown;
-    /* background-color:  #181719; */
-    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0,25);
+    /* background-color: brown; */
+    background-color:  #181719;
+    -webkit-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
     display: grid;
     grid-template-columns: 20% 80%;
+    position: relative;
+    bottom: 60px;
+    left: 50px;
 }
 
 .image-aliza{
+    margin: 1rem;
+    border-radius: 50%;
     width: 37px;
     height: 37px;
+}
+
+.designer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .name{
