@@ -1,6 +1,6 @@
 'use strict';
 
-const hambMenu = document.querySelector('.js-icon');
+const hambMenu = document.querySelectorAll('.js-icon');
 
 const navBar = document.querySelector('.js-navbar');
 
@@ -12,4 +12,4 @@ function handleClick() {
   }
 }
 
-hambMenu.addEventListener('click', handleClick);
+hambMenu.forEach((n) => n.addEventListener('click', handleClick));
