@@ -186,3 +186,38 @@ body{
     color: rgba(169, 169, 169, 1);
     text-align: center;
 }
+
+@media all and (min-width: 1024px) {
+    .title{
+        margin: 2.5rem;
+    }
+
+    .hidden{
+        display: inline;
+    }
+    
+    .navbar{
+       height: 1rem;
+       margin-right: 1.5rem;
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-item{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .home{
+        font-weight: 700;
+        margin-top: 3.5rem;
+    }
+
+    .menu-icon{
+        display: none;
+    }
+}
