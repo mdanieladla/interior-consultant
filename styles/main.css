@@ -63,6 +63,7 @@ body{
 }
 
 .home{
+    font-weight: 700;
     padding-bottom: 8px;
     border-bottom: 2px white solid;
 }
@@ -127,10 +128,8 @@ body{
 }
 
 .info-girl{
-    /* margin: 0px 10px; */
     width: 300px;
     height: 138px;
-    /* background-color: brown; */
     background-color:  #181719;
     -webkit-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
@@ -187,7 +186,13 @@ body{
     text-align: center;
 }
 
+.link{
+    color: rgba(169, 169, 169, 1);
+    text-decoration: none;
+}
+
 @media all and (min-width: 1024px) {
+/*HEADER*/
     .title{
         margin: 2.5rem;
     }
@@ -197,8 +202,10 @@ body{
     }
     
     .navbar{
-       height: 1rem;
-       margin-right: 1.5rem;
+         position: absolute;
+       right: 30px; 
+       height: 1rem; 
+        margin-right: 1.5rem;  
     }
     
     .nav-menu{
@@ -219,5 +226,63 @@ body{
 
     .menu-icon{
         display: none;
+    }
+
+    /*MAIN CONTENT*/
+    .article{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    
+    .info-container{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-title{
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+
+    .main-description{
+        font-size: 1.5rem;
+        line-height: 29px;
+    }
+
+    .more-info{
+        font-size: 1.2rem;
+    }
+
+    .image{
+        width: 720px;
+        height: 500px;
+    }
+
+    .info-girl{
+        width: 410px;
+        height: 189px;
+        left: 300px;
+    }
+
+    .image-aliza{
+        width: 50px;
+        height: 50px;
+    }
+
+    .name{
+        font-size: .875rem;
+        
+    }
+
+    .position{
+        margin-top: 7px;
+        font-size: .75rem;
+    }
+
+    .copy{
+        font-size: 1.5rem;
+        line-height: 30px;
     }
 }
