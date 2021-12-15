@@ -38,4 +38,4 @@ I have practiced responsive web design with this challenge.
 
 ## Contact
 
-- Website [your-website.com](https://mdanieladla.github.io/portfolio/)
+- Website [Daniela Darnea](https://mdanieladla.github.io/portfolio/)
