@@ -28,8 +28,7 @@
 
 ## Overview
 
-- What have you learned/improved?
-  - I have practiced responsive web design with this challenge.
+I have practiced responsive web design with this challenge.
 
 ### Built With
 
